@@ -3,7 +3,7 @@ export default function Item(props) {
   const { id, name, price, image, quantity } = props;
   return (
     <div className="card">
-      <img src={image} alt={id} />
+      <img src={image} alt={id} className="img" />
       <div className="product">
         <p className="name">ชื่อสินค้า : {name}</p>
         <p className="price">ราคาสินค้า : {price}</p>
